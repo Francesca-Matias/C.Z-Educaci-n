@@ -1,0 +1,996 @@
+
+/*RECETEO CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+        /*INDEX- pag. principal*/
+
+
+.body{
+    background-image: linear-gradient(#f5f4f3f1,#f8d4abd7 );
+    animation-iteration-count: infinite;
+}
+
+/* LOGO/ESLOGAN*/
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: 210px;
+    width: 100%;
+}
+.encabezado a{
+    overflow: hidden;
+    width: 25%;
+    height: 220px;
+}
+
+.logotipo{
+    width: 215px;
+    /* width: 80%; */
+    height: 210px;
+}
+
+.encabezado h1{
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    width: 100%;
+    height: 210px;
+    color:#df7229;
+    overflow: hidden;
+    font-size: 270%;
+    text-transform: uppercase;
+}
+
+
+/* LISTAS/SECCIONES*/
+
+.listasNav{
+    margin: auto;
+    background-color:#f7d7ce;
+    text-align: center;
+}
+
+.secciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    align-items:center;
+    overflow: hidden;
+    word-spacing: 150px;
+    font-size: 25px;
+    height: 50px;
+    margin-bottom: 0;
+}
+
+.secciones li{
+    position: relative;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+}
+
+.secciones li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.secciones li a:hover{
+    color: rgb(235, 96, 41);
+    transition:all 0.3s ease;
+}
+
+    /* texto */
+
+
+.introduccionPrincipal{
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.quieneSomos{
+    background-color: #ebd6d0;
+    margin: 10px 3px 5px 3px;
+    text-align: center;
+    font-style: italic;
+    font-size: 96%;
+}
+
+.quieneSomos:hover{
+    transition: 3s;
+    font-size: 99%;
+}
+
+/* ¿Como funciona? */
+
+.pregFunciona{
+    background-color: rgba(240, 195, 180, 0.719);
+    font-size: 150%;
+    text-align: center;
+    margin-top: 0.5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    letter-spacing: 1px;
+    font-weight: normal;
+
+}
+.comoFunciona{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 1% 8% 1% 8%;
+    
+}
+.comoFunciona div{
+    width: 29%;
+    height: 300px;
+    overflow: hidden;
+}
+.carousel{
+    width: 1000px;
+    margin-left: 13%;
+}
+
+.instruccion{
+    color: #df7229bd;
+}
+.comoFunciona div img{
+    width: 100%;
+    height: 250px;
+}
+
+.imgFunciona1{
+    width: 100%;
+    height: 300px;
+}
+.imgFunciona2{
+    width: 60%;
+    height: 300px;
+}
+.imgFunciona3{
+    width: 75%;
+    height: 300px;
+}
+
+/* pie de foto */
+.texto{
+    text-align: center;
+    font-size: 115%;
+    color: rgb(20, 20, 20);
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Educacion en pandemia */
+.educacion{
+    background-color: rgba(240, 195, 180, 0.719);
+    font-size: 150%;
+    text-align: center;
+    margin-top: 0.5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.educacionPandemia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 1% 8% 1% 8%;
+}
+.educacionPandemia div{
+    width: 29%;
+    height: 300px;
+    overflow: hidden;
+}
+.educacionPandemia img{
+    width: 100%;
+    height: 100%;
+}
+
+/* PIE de pagina */
+.redesociales{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 100%;
+    margin-top: 200px;
+    padding-bottom: 1%;
+    background-color:#ccb8b2a4;
+}
+
+        /*CURSOS*/
+
+/* titulo cursos */
+.titulo-cursos{
+    display: inline-block;
+    margin: 1% 1% 1% 1%;
+}
+.titulo-cursos h2{
+    font-size: 130%;
+    color: black;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    
+}
+
+/* imagenes nivel cursos */
+
+.section{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    padding: 15px;
+    grid-column-gap: 270px;
+    grid-row-gap: 120px ;
+    justify-items: center;
+    justify-content: center;
+}
+
+.section div img{
+   width: 240px;
+   height: 230px;
+}
+
+.section img:hover{
+    transform: scale(1.04,1.04);
+    transition: all 0.7s;
+}
+
+.nombreCursos{
+    text-align: center;
+    color: rgb(110, 97, 110);
+}
+
+        /*CONTACTO*/
+
+.titulo-contacto{
+    
+    display: inline-block;
+    margin: 1% 1% 1% 1%;
+}
+.titulo-contacto h2{
+    font-size: 130%;
+    color: black;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+/* cuadro contactanos */
+.cuadroContactanos{
+    background-color:rgba(228, 180, 165, 0.726);
+    width: 700px;
+    height: 294px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0;
+
+}
+
+.cajaContacto{
+    padding-bottom: 300px;
+}
+
+/* cuadro consultas */
+
+
+        /*NOTICIAS*/
+.tituloNoticias{
+    display: inline-block;
+    margin: 1% 1% 0 1%;
+}
+.tituloNoticias h2{
+    
+    font-size: 130%;
+    color: black;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.nowCursos h4{
+    margin: 1%;
+    font-size: 130%;
+}
+
+.nowCursos img{
+    width: 15%;
+    height: 200px;
+    margin-left: 10%;
+}
+
+.encontrarYoutube{
+    width: 30%;
+    height: 100px;
+}
+
+.encontrarYoutube h4{
+    font-size: 130%;
+    margin: 1% 0 1% 2%;
+}
+
+.encontrarYoutube img{
+    width: 40%;
+    height: 180px;
+    margin-left: 34%;
+}
+
+
+        /*RECURSOS*/
+.titulo-recursos{
+    display: inline-block;
+    margin: 1% 1% 0 1%;
+}
+.titulo-recursos h2{
+    font-size: 130%;
+    color: black;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.recursos {
+    margin-top: 10px;
+    margin-bottom: 20px ;
+    font-size: 150%;
+    font-style: italic;
+    padding-bottom: 300px;
+    text-align: center;
+}
+
+.recursos li{
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.recursos li a{
+    color: rgb(42, 85, 34);
+}
+.card{
+    margin-top: 3.5% ;
+    margin-left: 10%;
+}
+
+
+.imageRecursos{
+    width: 80%;
+    height: 200px;
+    margin-left: 10px;
+
+}
+
+/* MEDIA */
+
+/* celulares */
+
+@media screen and (max-width:400px) and (min-width:320px) {
+    .body{
+        background-image: linear-gradient(#f5f4f3f1,#f8d4abd7 );
+        animation-iteration-count: infinite;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* LOGO/ESLOGAN*/
+    
+    .encabezado{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        height: auto;
+        width: 100%;
+    }
+    .encabezado a{
+        overflow: hidden;
+        width: 30%;
+        height: auto;
+    }
+    
+    .logotipo{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    
+    .encabezado h1{
+        display: flex;
+        align-items: center;
+        margin-left: 1%;
+        width: 100%;
+        height: auto;
+        color:#df7229;
+        overflow: hidden;
+        font-size: 80%;
+        text-transform: uppercase;
+    }
+    
+    
+    /* LISTAS/SECCIONES*/
+    
+    .listasNav{
+        display: inline-block;
+        margin: auto;
+        background-color:#f7d7ce;
+        height: auto;
+    }
+    
+    .secciones{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content:space-evenly;
+        align-items:flex-start;
+        overflow: hidden;
+        word-spacing: 180px;
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 0;
+        width: 100%;
+    }
+    
+    .secciones li{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .secciones li a{
+        display: block;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .secciones li a:hover{
+        color: rgb(235, 96, 41);
+        transition:all 0.3s ease;
+    }
+    
+        /* texto */
+    
+    
+    .introduccionPrincipal{
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        margin: 0 1% 5% 1%;
+    }
+    
+    .quieneSomos{
+        background-color: #ebd6d0;
+        margin: 10px 3px 5px 3px;
+        text-align: center;
+        font-style: italic;
+        font-size: 96%;
+    }
+    
+    .quieneSomos:hover{
+        transition: 3s;
+        font-size: 99%;
+    }
+    
+    /* ¿Como funciona? */
+    
+    .pregFunciona{
+        background-color: rgba(240, 195, 180, 0.719);
+        font-size: 150%;
+        text-align: center;
+        margin-top: 0.5%;
+        margin-right: 5%;
+        margin-left: 5%;
+        letter-spacing: 1px;
+        font-weight: normal;
+    
+    }
+    .comoFunciona{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1% 8% 1% 8%;
+        align-content: center;
+
+        
+    }
+    .comoFunciona div{
+        width: 70%;
+        height: auto;
+        overflow: hidden;
+    }
+    .comoFunciona div img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .imgFunciona1{
+        width: 100%;
+        height: 300px;
+    }
+    .imgFunciona2{
+        width: 60%;
+        height: 300px;
+    }
+    .imgFunciona3{
+        width: 75%;
+        height: 300px;
+    }
+    
+    /* pie de foto */
+    .texto{
+        text-align: center;
+        font-size: 103%;
+        color: rgb(20, 20, 20);
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    /* Educacion en pandemia */
+    .educacion{
+        background-color: rgba(240, 195, 180, 0.719);
+        font-size: 130%;
+        text-align: center;
+        margin-top: 0.5%;
+        margin-right: 5%;
+        margin-left: 5%;
+        letter-spacing: 1px;
+        font-weight: normal;
+    }
+    .educacionPandemia{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1% 8% 1% 8%;
+        align-content: center;
+    }
+    .educacionPandemia div{
+        width: 70%;
+        height: auto;
+        overflow: hidden;
+        
+    }
+    .educacionPandemia img{
+        width: 100%;
+        height: auto;
+        margin: 1.5%;
+    }
+    
+    /* PIE de pagina */
+    .redesociales{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        font-size: 100%;
+        margin-top: 200px;
+        padding-bottom: 1%;
+        background-color:#ccb8b2a4;
+    }
+}
+
+/* Tablet */
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .body{
+        background-image: linear-gradient(#f5f4f3f1,#f8d4abd7 );
+        animation-iteration-count: infinite;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* LOGO/ESLOGAN*/
+    
+    .encabezado{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        height: auto;
+        width: 100%;
+    }
+    .encabezado a{
+        overflow: hidden;
+        width: 25%;
+        height: auto;
+    }
+    
+    .logotipo{
+        width: 90%;
+        height: auto;
+    }
+    
+    .encabezado h1{
+        display: flex;
+        align-items: center;
+        margin-left: 0.5%;
+        width: 100%;
+        height: auto;
+        color:#df7229;
+        overflow: hidden;
+        font-size: 150%;
+        text-transform: uppercase;
+    }
+    
+    
+    /* LISTAS/SECCIONES*/
+    
+    .listasNav{
+        display: inline-block;
+        margin: auto;
+        background-color:#f7d7ce;
+        height: auto;
+        width: 100%;
+    }
+    
+    .secciones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content:space-evenly;
+        align-items:center;
+        overflow: hidden;
+        word-spacing: 150px;
+        font-size: 25px;
+        height: 50px;
+        margin-bottom: 0;
+    }
+    
+    .secciones li{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .secciones li a{
+        display: block;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .secciones li a:hover{
+        color: rgb(235, 96, 41);
+        transition:all 0.3s ease;
+    }
+    
+        /* texto */
+    
+    
+    .introduccionPrincipal{
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        margin: 0 1% 2% 1%;
+    }
+    
+    .quieneSomos{
+        background-color: #ebd6d0;
+        margin: 10px 3px 5px 3px;
+        text-align: center;
+        font-style: italic;
+        font-size: 96%;
+    }
+    
+    .quieneSomos:hover{
+        transition: 3s;
+        font-size: 99%;
+    }
+    
+    /* ¿Como funciona? */
+    
+    .pregFunciona{
+        background-color: rgba(240, 195, 180, 0.719);
+        font-size: 150%;
+        text-align: center;
+        margin-top: 0.5%;
+        margin-right: 5%;
+        margin-left: 5%;
+        letter-spacing: 1px;
+        font-weight: normal;
+    
+    }
+    .comoFunciona{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1% 8% 1% 8%;
+        align-content: center;
+
+        
+    }
+    .comoFunciona div{
+        width: 60%;
+        height: auto;
+        overflow: hidden;
+    }
+    .comoFunciona div img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .imgFunciona1{
+        width: 100%;
+        height: 300px;
+    }
+    .imgFunciona2{
+        width: 60%;
+        height: 300px;
+    }
+    .imgFunciona3{
+        width: 75%;
+        height: 300px;
+    }
+    
+    /* pie de foto */
+    .texto{
+        text-align: center;
+        font-size: 120%;
+        color: rgb(20, 20, 20);
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    /* Educacion en pandemia */
+    .educacion{
+        background-color: rgba(240, 195, 180, 0.719);
+        font-size: 150%;
+        text-align: center;
+        margin-top: 0.5%;
+        margin-right: 5%;
+        margin-left: 5%;
+        letter-spacing: 1px;
+        font-weight: normal;
+    }
+    .educacionPandemia{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1% 8% 1% 8%;
+        align-content: center;
+    }
+    .educacionPandemia div{
+        width: 60%;
+        height: auto;
+        overflow: hidden;
+        
+    }
+    .educacionPandemia img{
+        width: 100%;
+        height: auto;
+        margin: 1.5%;
+    }
+    
+    /* PIE de pagina */
+    .redesociales{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        font-size: 100%;
+        margin-top: 200px;
+        padding-bottom: 1%;
+        background-color:#ccb8b2a4;
+    }
+}
+
+/* escritorio */
+
+@media screen and  (min-width:1024px){
+    .body{
+        background-image: linear-gradient(#f5f4f3f1,#f8d4abd7 );
+        animation-iteration-count: infinite;
+    }
+    
+    /* LOGO/ESLOGAN*/
+    
+    .encabezado{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        height: 210px;
+        width: 100%;
+    }
+    .encabezado a{
+        overflow: hidden;
+        width: 25%;
+        height: 220px;
+    }
+    
+    .logotipo{
+        width: 215px;
+        /* width: 80%; */
+        height: 210px;
+    }
+    
+    .encabezado h1{
+        display: flex;
+        align-items: center;
+        margin-left: 1%;
+        width: 100%;
+        height: 210px;
+        color:#df7229;
+        overflow: hidden;
+        font-size: 270%;
+        text-transform: uppercase;
+    }
+    
+    
+    /* LISTAS/SECCIONES*/
+    
+    .listasNav{
+        margin: auto;
+        background-color:#f7d7ce;
+        text-align: center;
+    }
+    
+    .secciones{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content:space-evenly;
+        align-items:center;
+        overflow: hidden;
+        word-spacing: 150px;
+        font-size: 25px;
+        height: 50px;
+        margin-bottom: 0;
+    }
+    
+    .secciones li{
+        position: relative;
+        display: inline-block;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .secciones li a{
+        display: block;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .secciones li a:hover{
+        color: rgb(235, 96, 41);
+        transition:all 0.3s ease;
+    }
+    
+        /* texto */
+    
+    
+    .introduccionPrincipal{
+        font-family: 'Rubik', sans-serif;
+        font-size: 25px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    
+    .quieneSomos{
+        background-color: #ebd6d0;
+        margin: 10px 3px 5px 3px;
+        text-align: center;
+        font-style: italic;
+        font-size: 96%;
+    }
+    
+    .quieneSomos:hover{
+        transition: 3s;
+        font-size: 99%;
+    }
+    
+    /* ¿Como funciona? */
+    
+    .pregFunciona{
+        background-color: rgba(240, 195, 180, 0.719);
+        font-size: 160%;
+        text-align: center;
+        margin-top: 0.5%;
+        margin-right: 5%;
+        margin-left: 5%;
+        letter-spacing: 1px;
+        font-weight: normal;
+    
+    }
+    .comoFunciona{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        padding: 1% 8% 1% 8%;
+        
+    }
+    .comoFunciona div{
+        width: 29%;
+        height: 300px;
+        overflow: hidden;
+    }
+    .comoFunciona div img{
+        width: 100%;
+        height: 250px;
+    }
+    
+    .imgFunciona1{
+        width: 100%;
+        height: 300px;
+    }
+    .imgFunciona2{
+        width: 60%;
+        height: 300px;
+    }
+    .imgFunciona3{
+        width: 75%;
+        height: 300px;
+    }
+    
+    /* pie de foto */
+    .texto{
+        text-align: center;
+        font-size: 120%;
+        color: rgb(20, 20, 20);
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    /* Educacion en pandemia */
+    .educacion{
+        background-color: rgba(240, 195, 180, 0.719);
+        font-size: 150%;
+        text-align: center;
+        margin-top: 0.5%;
+        margin-right: 5%;
+        margin-left: 5%;
+        letter-spacing: 1px;
+        font-weight: normal;
+    }
+    .educacionPandemia{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        padding: 1% 8% 1% 8%;
+    }
+    .educacionPandemia div{
+        width: 29%;
+        height: 300px;
+        overflow: hidden;
+    }
+    .educacionPandemia img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* PIE de pagina */
+    .redesociales{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        font-size: 100%;
+        margin-top: 200px;
+        padding-bottom: 1%;
+        background-color:#ccb8b2a4;
+    }
+}

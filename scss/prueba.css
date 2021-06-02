@@ -1,0 +1,45 @@
+.tituloNoticias {
+  display: inline-block;
+  margin: 1% 1% 0 1%;
+}
+
+.tituloNoticias h2 {
+  font-size: 130%;
+  color: black;
+  padding-top: 10px;
+  padding-left: 15px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+
+.nowCursos h4 {
+  color: #f78d9f;
+  margin: 1%;
+  font-size: 130%;
+}
+
+.nowCursos img {
+  width: 15%;
+  height: 200px;
+  margin-left: 10%;
+}
+
+.encontrarYoutube {
+  width: 30%;
+  height: 100px;
+}
+
+.encontrarYoutube h4 {
+  color: #f78d9f;
+  font-size: 130%;
+  margin: 1% 0 1% 2%;
+}
+
+.encontrarYoutube img {
+  width: 40%;
+  height: 180px;
+  margin-left: 34%;
+}
+/*# sourceMappingURL=prueba.css.map */
