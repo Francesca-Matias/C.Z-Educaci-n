@@ -14,51 +14,32 @@
 
 
 .body{
-    background-image: linear-gradient(#f5f4f3f1,#f8d4abd7 );
+    background-image: linear-gradient(#fdedd6,#f8d4abd7 );
     animation-iteration-count: infinite;
 }
 
 /* LOGO/ESLOGAN*/
-
-.encabezado{
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    height: 210px;
+header{
+    position: relative;
     width: 100%;
-}
-.encabezado a{
+    height: 350px;
     overflow: hidden;
-    width: 25%;
-    height: 220px;
 }
-
 .logotipo{
-    width: 215px;
-    /* width: 80%; */
-    height: 210px;
-}
-
-.encabezado h1{
-    display: flex;
-    align-items: center;
-    margin-left: 1%;
     width: 100%;
-    height: 210px;
-    color:#df7229;
-    overflow: hidden;
-    font-size: 270%;
-    text-transform: uppercase;
+    height: 350px;
+}
+.imagenLogotipo{
+    width: 650%;
+    height: 350px
+}
+.navegacion{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    border: hidden 1px solid;
 }
 
-
-/* LISTAS/SECCIONES*/
-
-.listasNav{
-    margin: auto;
-    background-color:#f7d7ce;
-    text-align: center;
-}
 
 .secciones{
     display: flex;
@@ -66,11 +47,9 @@
     flex-wrap: nowrap;
     justify-content:space-evenly;
     align-items:center;
-    overflow: hidden;
+    /* overflow: hidden; */
     word-spacing: 150px;
     font-size: 25px;
-    height: 50px;
-    margin-bottom: 0;
 }
 
 .secciones li{
@@ -90,116 +69,21 @@
     transition:all 0.3s ease;
 }
 
-    /* texto */
-
-
-.introduccionPrincipal{
-    font-family: 'Rubik', sans-serif;
-    font-size: 25px;
-    margin-bottom: 30px;
-    margin-left: 10px;
+.mainn{
+    padding: 0px 50px 20px 50px;
 }
 
-.quieneSomos{
-    background-color: #ebd6d0;
-    margin: 10px 3px 5px 3px;
-    text-align: center;
-    font-style: italic;
-    font-size: 96%;
+.fondoCardDef{
+    background-color: #f8e1c6d7;
+}
+/* Tarjetas */
+
+.card-img-top{
+    width: 100px;
 }
 
-.quieneSomos:hover{
-    transition: 3s;
-    font-size: 99%;
-}
+/* comentarios */
 
-/* ¿Como funciona? */
-
-.pregFunciona{
-    background-color: rgba(240, 195, 180, 0.719);
-    font-size: 150%;
-    text-align: center;
-    margin-top: 0.5%;
-    margin-right: 5%;
-    margin-left: 5%;
-    letter-spacing: 1px;
-    font-weight: normal;
-
-}
-.comoFunciona{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    padding: 1% 8% 1% 8%;
-    
-}
-.comoFunciona div{
-    width: 29%;
-    height: 300px;
-    overflow: hidden;
-}
-.carousel{
-    width: 1000px;
-    margin-left: 13%;
-}
-
-.instruccion{
-    color: #df7229bd;
-}
-.comoFunciona div img{
-    width: 100%;
-    height: 250px;
-}
-
-.imgFunciona1{
-    width: 100%;
-    height: 300px;
-}
-.imgFunciona2{
-    width: 60%;
-    height: 300px;
-}
-.imgFunciona3{
-    width: 75%;
-    height: 300px;
-}
-
-/* pie de foto */
-.texto{
-    text-align: center;
-    font-size: 115%;
-    color: rgb(20, 20, 20);
-    font-family: 'Rubik', sans-serif;
-}
-
-/* Educacion en pandemia */
-.educacion{
-    background-color: rgba(240, 195, 180, 0.719);
-    font-size: 150%;
-    text-align: center;
-    margin-top: 0.5%;
-    margin-right: 5%;
-    margin-left: 5%;
-    letter-spacing: 1px;
-    font-weight: normal;
-}
-.educacionPandemia{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    padding: 1% 8% 1% 8%;
-}
-.educacionPandemia div{
-    width: 29%;
-    height: 300px;
-    overflow: hidden;
-}
-.educacionPandemia img{
-    width: 100%;
-    height: 100%;
-}
 
 /* PIE de pagina */
 .redesociales{
@@ -262,23 +146,13 @@
 
         /*CONTACTO*/
 
-.titulo-contacto{
-    
-    display: inline-block;
-    margin: 1% 1% 1% 1%;
-}
-.titulo-contacto h2{
-    font-size: 130%;
-    color: black;
-    padding-top: 10px;
-    padding-left: 15px;
-    margin-left: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-transform: uppercase;
+/* cuadro contactanos */
+
+.cajaContacto{
+    padding: 40px;
+    padding-bottom: 200px;
 }
 
-/* cuadro contactanos */
 .cuadroContactanos{
     background-color:rgba(228, 180, 165, 0.726);
     width: 700px;
@@ -288,13 +162,6 @@
     padding-bottom: 0;
 
 }
-
-.cajaContacto{
-    padding-bottom: 300px;
-}
-
-/* cuadro consultas */
-
 
         /*NOTICIAS*/
 .tituloNoticias{
