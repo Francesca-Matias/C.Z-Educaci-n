@@ -9,238 +9,225 @@
     text-decoration: none;
 }
 
+    /*INDEX- pag. principal*/
 
-        /*INDEX- pag. principal*/
-
-
-.body{
-    background-image: linear-gradient(#fdedd6,#f8d4abd7 );
-    animation-iteration-count: infinite;
+/* cuerpo */
+.bady11{
+    background-color: cornsilk;
 }
 
-/* LOGO/ESLOGAN*/
-header{
-    position: relative;
+/*Header secciones*/
+
+.botonesSec{
     width: 100%;
-    height: 350px;
+    /* background-color: blanchedalmond;  */
+}
+
+.headerSecciones{
+    width: 100%;
+    height: 450px;
     overflow: hidden;
-}
-.logotipo{
-    width: 100%;
-    height: 350px;
-}
-.imagenLogotipo{
-    width: 650%;
-    height: 350px
-}
-.navegacion{
-    width: 10%;
-    display: flex;
-    flex-direction: column;
-    border: hidden 1px solid;
+    /* background-color: #AD9567; */
+    background-color: #AD9567;
 }
 
+.fondoSecciones{
+    background-color: #fcfcfc;
+    border: #ffffff;
+}
 
-.secciones{
+.fondoSecciones:hover{
+    background-color: rgb(247, 202, 134);
+    transition:all 0.3s ease;    
+}
+
+/* Segunda parte inicio */
+
+.mainInicio{
+    margin: 2% 3% 2% 3%;
+    color: black;
+}
+
+.acercaDe{
+    background-color: rgb(216, 216, 216);
+    margin: 1px;
+    padding: 0.2%;
+    color: black;
+    font-size: 140%;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    width:100%;
+}
+
+.col{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content:space-evenly;
-    align-items:center;
-    /* overflow: hidden; */
-    word-spacing: 150px;
-    font-size: 25px;
-}
-
-.secciones li{
-    position: relative;
-    display: inline-block;
-    font-family: 'Rubik', sans-serif;
-}
-
-.secciones li a{
-    display: block;
-    color: black;
-    text-decoration: none;
-}
-
-.secciones li a:hover{
-    color: rgb(235, 96, 41);
-    transition:all 0.3s ease;
-}
-
-.mainn{
-    padding: 0px 50px 20px 50px;
+    justify-content: space-around;
 }
 
 .fondoCardDef{
-    background-color: #f8e1c6d7;
+    background-color: #ebc4197c;
+    border: #ebc4197c 1px solid;
+    padding: 0;
+    margin: 2% 10% 2% 10%;
 }
+
 /* Tarjetas */
 
 .card-img-top{
-    width: 100px;
+    width: 80px;
 }
 
-/* comentarios */
+/* Suscribite */
 
-
-/* PIE de pagina */
-.redesociales{
+.cajaInscripcion{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    /* margin: 10px 60px 10px 60px; */
+    background-color: yellow;
+}
+
+.inscripcion{
+    text-align: center;
+    margin: 10px;
+}
+
+.botonInscripcion{
+    color: rgb(71, 70, 70);
+    background-color: #ffff00be;
+    border-radius: 0.5px;
+}
+
+.botonInscripcion:hover{
+    color: violet;
+    background-color: rgb(216, 216, 216);
+    transition:all 0.3s ease;    
+}
+
+/* cursos recientes */
+
+.cursosRecient{
+    background-color: rgb(216, 216, 216);
+    margin: 1px;
+    padding: 0.2%; 
+    color: black;
+    font-size: 140%;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    width:100%;
+}
+
+.cajaCursos{
+    text-align: center;
+    background-color: #cf5b0eb0;
+}
+
+.cajaCursosRecient{
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    font-size: 100%;
+    margin: 1%; 
+    padding: 2% 4.5% 2% 0; 
+}
+
+.botonAqui{
+    background-color: rgb(216, 216, 216);
+    color: violet;
+    border: grey;
+}
+
+.botonAqui:hover{
+    color: violet;
+    background-color: yellow;
+    transition:all 0.3s ease;    
+}
+
+/* PIE de pagina general*/
+.footer{
+    text-align: center;
+    font-size: 5px;
     margin-top: 200px;
     padding-bottom: 1%;
     background-color:#ccb8b2a4;
 }
 
+.colorTerminos{
+    color: black;
+}
+
+.colorTerminos:hover{
+    color: rgb(219, 91, 17);
+}
+
+
         /*CURSOS*/
 
 /* titulo cursos */
 .titulo-cursos{
-    display: inline-block;
-    margin: 1% 1% 1% 1%;
-}
-.titulo-cursos h2{
-    font-size: 130%;
+    background-color: rgb(216, 216, 216);
+    margin: 10px 0 5px 0;
+    padding: 0.2%; 
     color: black;
-    padding-top: 10px;
-    padding-left: 15px;
-    margin-left: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-transform: uppercase;
-    
+    font-size: 140%;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    width:100%;
 }
 
-/* imagenes nivel cursos */
+.formatoCursos{
+    background-color: #df7229;
 
-.section{
-    display: grid;
-    grid-template-columns: 150px 150px 150px;
-    grid-template-rows: 150px 150px 150px;
-    padding: 15px;
-    grid-column-gap: 270px;
-    grid-row-gap: 120px ;
-    justify-items: center;
+
+}
+
+/* EducacionArg */
+
+.tituloEdArg{
+    background-color: rgb(216, 216, 216);
+    margin: 10px 0 5px 0;
+    padding: 0.2%; 
+    color: black;
+    font-size: 140%;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    width:100%;
+}
+
+.cajaEducacion{
+   margin: 0 10% 0 10%;
+}
+
+.cajaEducacion2{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin: 10% 9% 10% 0;
+    color: rgb(247, 96, 58);
 }
-
-.section div img{
-   width: 240px;
-   height: 230px;
+.tarjetaEducacion{
+    width: 10px;
+    height: 400px;
 }
-
-.section img:hover{
-    transform: scale(1.04,1.04);
-    transition: all 0.7s;
-}
-
-.nombreCursos{
-    text-align: center;
-    color: rgb(110, 97, 110);
-}
-
-        /*CONTACTO*/
-
-/* cuadro contactanos */
-
-.cajaContacto{
-    padding: 40px;
-    padding-bottom: 200px;
-}
-
-.cuadroContactanos{
-    background-color:rgba(228, 180, 165, 0.726);
-    width: 700px;
-    height: 294px;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 0;
-
-}
-
-        /*NOTICIAS*/
-.tituloNoticias{
-    display: inline-block;
-    margin: 1% 1% 0 1%;
-}
-.tituloNoticias h2{
-    
-    font-size: 130%;
-    color: black;
-    padding-top: 10px;
-    padding-left: 15px;
-    margin-left: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-transform: uppercase;
-}
-
-.nowCursos h4{
-    margin: 1%;
-    font-size: 130%;
-}
-
-.nowCursos img{
-    width: 15%;
-    height: 200px;
-    margin-left: 10%;
-}
-
-.encontrarYoutube{
-    width: 30%;
-    height: 100px;
-}
-
-.encontrarYoutube h4{
-    font-size: 130%;
-    margin: 1% 0 1% 2%;
-}
-
-.encontrarYoutube img{
-    width: 40%;
-    height: 180px;
-    margin-left: 34%;
-}
-
 
         /*RECURSOS*/
-.titulo-recursos{
-    display: inline-block;
-    margin: 1% 1% 0 1%;
-}
-.titulo-recursos h2{
-    font-size: 130%;
+
+.tituloRecursos{
+    background-color: rgb(216, 216, 216);
+    margin: 10px 0 5px 0;
+    padding: 0.2%; 
     color: black;
-    padding-top: 10px;
-    padding-left: 15px;
-    margin-left: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-transform: uppercase;
-}
-
-.recursos {
-    margin-top: 10px;
-    margin-bottom: 20px ;
-    font-size: 150%;
+    font-size: 140%;
     font-style: italic;
-    padding-bottom: 300px;
+    letter-spacing: 2px;
     text-align: center;
+    width:100%;
 }
 
-.recursos li{
-    padding: 10px;
-    padding-left: 40px;
-}
-
-.recursos li a{
-    color: rgb(42, 85, 34);
-}
 .card{
     margin-top: 3.5% ;
     margin-left: 10%;
@@ -254,19 +241,51 @@ header{
 
 }
 
+   /*CONTACTO*/
+
+.tituloContacto{
+    background-color: rgb(216, 216, 216);
+    margin: 10px 0 5px 0;
+    padding: 0.2%; 
+    color: black;
+    font-size: 140%;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    width:100%;
+}
+
+.cajaForm{
+    background-color: rgb(245, 199, 99);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 5% 25% 5% 25%;
+}
+
+.nombreCursos123{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% 32.6% 5% 32.6%;
+}
+
+
 /* MEDIA */
 
 /* celulares */
 
-@media screen and (max-width:400px) and (min-width:320px) {
-    .body{
+/* @media screen and (max-width:400px) and (min-width:320px) {
+    /* .body{
         background-image: linear-gradient(#f5f4f3f1,#f8d4abd7 );
         animation-iteration-count: infinite;
         display: flex;
         flex-direction: column;
-    }
+    } */
     
-    /* LOGO/ESLOGAN*/
+    /* LOGO/ESLOGAN
     
     .encabezado{
         display: flex;
@@ -303,7 +322,7 @@ header{
     }
     
     
-    /* LISTAS/SECCIONES*/
+    /* LISTAS/SECCIONES
     
     .listasNav{
         display: inline-block;
@@ -343,7 +362,7 @@ header{
         transition:all 0.3s ease;
     }
     
-        /* texto */
+        /* texto 
     
     
     .introduccionPrincipal{
@@ -365,7 +384,7 @@ header{
         font-size: 99%;
     }
     
-    /* ¿Como funciona? */
+    /* ¿Como funciona? 
     
     .pregFunciona{
         background-color: rgba(240, 195, 180, 0.719);
@@ -411,7 +430,7 @@ header{
         height: 300px;
     }
     
-    /* pie de foto */
+    /* pie de foto 
     .texto{
         text-align: center;
         font-size: 103%;
@@ -419,7 +438,7 @@ header{
         font-family: 'Rubik', sans-serif;
     }
     
-    /* Educacion en pandemia */
+    /* Educacion en pandemia 
     .educacion{
         background-color: rgba(240, 195, 180, 0.719);
         font-size: 130%;
@@ -450,7 +469,7 @@ header{
         margin: 1.5%;
     }
     
-    /* PIE de pagina */
+    /* PIE de pagina 
     .redesociales{
         display: flex;
         flex-direction: column;
@@ -463,7 +482,7 @@ header{
     }
 }
 
-/* Tablet */
+/* Tablet 
 
 @media screen and (min-width:768px) and (max-width:1023px){
     .body{
@@ -473,7 +492,7 @@ header{
         flex-direction: column;
     }
     
-    /* LOGO/ESLOGAN*/
+    /* LOGO/ESLOGAN
     
     .encabezado{
         display: flex;
@@ -506,7 +525,7 @@ header{
     }
     
     
-    /* LISTAS/SECCIONES*/
+    /* LISTAS/SECCIONES
     
     .listasNav{
         display: inline-block;
@@ -546,7 +565,7 @@ header{
         transition:all 0.3s ease;
     }
     
-        /* texto */
+        /* texto 
     
     
     .introduccionPrincipal{
@@ -568,7 +587,7 @@ header{
         font-size: 99%;
     }
     
-    /* ¿Como funciona? */
+    /* ¿Como funciona? 
     
     .pregFunciona{
         background-color: rgba(240, 195, 180, 0.719);
@@ -614,7 +633,7 @@ header{
         height: 300px;
     }
     
-    /* pie de foto */
+    /* pie de foto 
     .texto{
         text-align: center;
         font-size: 120%;
@@ -622,7 +641,7 @@ header{
         font-family: 'Rubik', sans-serif;
     }
     
-    /* Educacion en pandemia */
+    /* Educacion en pandemia 
     .educacion{
         background-color: rgba(240, 195, 180, 0.719);
         font-size: 150%;
@@ -653,7 +672,7 @@ header{
         margin: 1.5%;
     }
     
-    /* PIE de pagina */
+    /* PIE de pagina 
     .redesociales{
         display: flex;
         flex-direction: column;
@@ -666,7 +685,7 @@ header{
     }
 }
 
-/* escritorio */
+/* escritorio 
 
 @media screen and  (min-width:1024px){
     .body{
@@ -674,7 +693,7 @@ header{
         animation-iteration-count: infinite;
     }
     
-    /* LOGO/ESLOGAN*/
+    /* LOGO/ESLOGAN
     
     .encabezado{
         display: flex;
@@ -691,7 +710,7 @@ header{
     
     .logotipo{
         width: 215px;
-        /* width: 80%; */
+        /* width: 80%; 
         height: 210px;
     }
     
@@ -708,7 +727,7 @@ header{
     }
     
     
-    /* LISTAS/SECCIONES*/
+    /* LISTAS/SECCIONES
     
     .listasNav{
         margin: auto;
@@ -746,7 +765,7 @@ header{
         transition:all 0.3s ease;
     }
     
-        /* texto */
+        /* texto 
     
     
     .introduccionPrincipal{
@@ -769,7 +788,7 @@ header{
         font-size: 99%;
     }
     
-    /* ¿Como funciona? */
+    /* ¿Como funciona? 
     
     .pregFunciona{
         background-color: rgba(240, 195, 180, 0.719);
@@ -813,7 +832,7 @@ header{
         height: 300px;
     }
     
-    /* pie de foto */
+    /* pie de foto 
     .texto{
         text-align: center;
         font-size: 120%;
@@ -821,7 +840,7 @@ header{
         font-family: 'Rubik', sans-serif;
     }
     
-    /* Educacion en pandemia */
+    /* Educacion en pandemia 
     .educacion{
         background-color: rgba(240, 195, 180, 0.719);
         font-size: 150%;
@@ -849,7 +868,7 @@ header{
         height: 100%;
     }
     
-    /* PIE de pagina */
+    /* PIE de pagina 
     .redesociales{
         display: flex;
         flex-direction: column;
@@ -860,4 +879,4 @@ header{
         padding-bottom: 1%;
         background-color:#ccb8b2a4;
     }
-}
+} */
