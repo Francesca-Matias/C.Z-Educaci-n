@@ -12,7 +12,7 @@
     /*INDEX- pag. principal*/
 
 /* cuerpo */
-.bady11{
+.bady{
     background-color: cornsilk;
 }
 
@@ -20,27 +20,18 @@
 
 .botonesSec{
     width: 100%;
-    /* background-color: blanchedalmond;  */
-}
-
-.headerSecciones{
-    width: 100%;
-    height: 450px;
-    overflow: hidden;
-    /* background-color: #AD9567; */
-    background-color: #AD9567;
 }
 
 .fondoSecciones{
     background-color: #fcfcfc;
     border: #ffffff;
+    
 }
 
 .fondoSecciones:hover{
     background-color: rgb(247, 202, 134);
     transition:all 0.3s ease;    
 }
-
 /* Segunda parte inicio */
 
 .mainInicio{
@@ -179,7 +170,9 @@
 }
 
 .formatoCursos{
-    background-color: #df7229;
+    /* background-color: #df7229; */
+    margin: 2%;
+    padding: 2% 6.5% 2% 3%;
 
 
 }
